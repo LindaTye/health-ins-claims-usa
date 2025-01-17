@@ -15,14 +15,20 @@ This dataset contains insightful information related to insurance claims, giving
 #### Data Cleaning
 * 8 rows were removed as the null values from the age and region columns would affect the dataset. The index and patient ID columns were also removed as these were unnecessary for EDA. 
 
-
+[![Image from Gyazo](https://i.gyazo.com/7b22f20f9d03982d20d0cbe32f1a66d1.png)](https://gyazo.com/7b22f20f9d03982d20d0cbe32f1a66d1)
 [![Image from Gyazo](https://i.gyazo.com/2eef2ad583c5c7045f82b1ee85f13d15.png)](https://gyazo.com/2eef2ad583c5c7045f82b1ee85f13d15)
-[![Image from Gyazo](https://i.gyazo.com/cb69cbed87ec820e86d899710bbef8ca.png)](https://gyazo.com/cb69cbed87ec820e86d899710bbef8ca)
+[![Image from Gyazo](https://i.gyazo.com/39fd44628ebc2cb89c6432922ba55c74.png)](https://gyazo.com/39fd44628ebc2cb89c6432922ba55c74)
 
 #### Observations
-* In the correlation chart for all the variables there is strong correlation between a smoker and claim amount shows that smokers tend to have higher insurance claims as we all know that smoking contributes to cardiovascular problems, including hypertension (high blood pressure), increasing the risk of heart disease and stroke
+* Diabetic patients account for 47.5% of the claimants, nearly half, compared to non-diabetic patients at 52.5%
+* Male represents 50.3% and females slightly lower at 49.7% suggesting an almost even split in insurance claim ratios between the two genders
+* In the smoker category, smokers account for 49.5% and non-smokers 50.5% request for the insurance claim
+* Southeast USA region report the highest number of insurance claims, followed by those in the Northwest, Southwest, and Northeast
+* Northeast USA is less likely to file insurance claims than other regions
+* In the correlation chart for all the variables there is strong correlation between a smoker and claim amount shows that smokers tend to have higher insurance claims 
 * We see the moderate correlation with people who smokes and blood pressure
 * Random Forest Regressor (RFR) shows the highest R-squared (0.82) and adjusted R-squared (0.81), this high value suggests that the RFR is very effective in capturing the underlying patterns in the data
+* Whether someone smokes or not strongly affects their insurance claims. Non-smokers have a significant impact in reducing claims. This is the most important factor by a large margin.
 
 
 #### Key Insights
