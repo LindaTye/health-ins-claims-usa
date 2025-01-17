@@ -30,7 +30,6 @@ This dataset contains insightful information related to insurance claims, giving
 * Random Forest Regressor (RFR) shows the highest R-squared (0.82) and adjusted R-squared (0.81), this high value suggests that the RFR is very effective in capturing the underlying patterns in the data
 * Whether someone smokes or not strongly affects their insurance claims. Non-smokers have a significant impact in reducing claims. This is the most important factor by a large margin.
 
-
 #### Key Insights
 Please refer to the [powerpoint pressentation](https://github.com/LindaTye/health-ins-claims-usa/blob/main/Linda_Tye_Capstone_Presentation.pptx) for more information 
 * Enhanced Decision-Making with AI: RFR enables better risk assessment, pricing strategies, and targeted health interventions.
